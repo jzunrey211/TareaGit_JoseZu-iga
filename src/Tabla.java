@@ -9,6 +9,7 @@
  */
 public class Tabla {
     
+    
     private int numeroTablita;
 
     public int getNumeroTablita() {
@@ -31,5 +32,14 @@ public class Tabla {
        }
          return tabla.toString();
    }
+    public String multiplicar(){
+       StringBuilder tabla = new StringBuilder();
+     
+       int resultado= this.numeroTablita*numeroTablita;
+       tabla.append(this.numeroTablita+" * "+"="+resultado+"\n");
+       
+         return tabla.toString();
+   }
    
+  
 }
